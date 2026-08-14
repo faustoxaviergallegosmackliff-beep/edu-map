@@ -1,0 +1,366 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont,
+    "Segoe UI", sans-serif;
+  color: #172033;
+  background: #ffffff;
+  line-height: 1.55;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* =========================
+   BARRA DE NAVEGACIÓN
+   ========================= */
+
+.topbar {
+  height: 72px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  padding: 0 6%;
+
+  border-bottom: 1px solid #e7eaf0;
+
+  background: rgba(255, 255, 255, 0.96);
+
+  position: sticky;
+  top: 0;
+
+  z-index: 10;
+}
+
+.brand {
+  font-weight: 900;
+  letter-spacing: 0.08em;
+}
+
+.topbar nav {
+  display: flex;
+  gap: 24px;
+  align-items: center;
+
+  font-size: 0.92rem;
+}
+
+/* =========================
+   BOTONES
+   ========================= */
+
+.btn {
+  display: inline-block;
+
+  border: 0;
+  border-radius: 12px;
+
+  padding: 14px 20px;
+
+  background: #172033;
+  color: white;
+
+  font-weight: 800;
+
+  cursor: pointer;
+}
+
+.btn-small {
+  padding: 9px 14px;
+}
+
+/* =========================
+   HERO
+   ========================= */
+
+.hero {
+  min-height: 620px;
+
+  padding: 90px 8%;
+
+  display: grid;
+
+  grid-template-columns: 1.15fr 0.85fr;
+
+  gap: 70px;
+
+  align-items: center;
+
+  background: linear-gradient(
+    135deg,
+    #f7f9fc,
+    #eef3fb
+  );
+}
+
+.hero-copy {
+  max-width: 700px;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.14em;
+
+  color: #52627a;
+}
+
+.hero h1 {
+  font-size: clamp(3rem, 7vw, 6.4rem);
+
+  line-height: 0.92;
+
+  margin: 18px 0 25px;
+
+  letter-spacing: -0.06em;
+}
+
+.hero p {
+  font-size: 1.2rem;
+
+  max-width: 650px;
+
+  color: #596579;
+
+  margin-bottom: 30px;
+}
+
+/* =========================
+   TARJETA DEMO
+   ========================= */
+
+.hero-card {
+  background: white;
+
+  border: 1px solid #e1e6ee;
+
+  border-radius: 24px;
+
+  padding: 35px;
+
+  box-shadow:
+    0 20px 60px rgba(23, 32, 51, 0.1);
+}
+
+.hero-card h3 {
+  font-size: 2rem;
+
+  margin: 8px 0;
+}
+
+.mini-label {
+  font-size: 0.7rem;
+
+  font-weight: 800;
+
+  letter-spacing: 0.12em;
+
+  color: #66758d;
+}
+
+/* =========================
+   PROGRESO
+   ========================= */
+
+.progress {
+  height: 9px;
+
+  background: #e7ebf2;
+
+  border-radius: 20px;
+
+  margin: 30px 0 20px;
+}
+
+.progress span {
+  display: block;
+
+  width: 78%;
+
+  height: 100%;
+
+  background: #172033;
+
+  border-radius: 20px;
+}
+
+/* =========================
+   ETIQUETAS
+   ========================= */
+
+.mini-grid {
+  display: flex;
+
+  gap: 8px;
+
+  flex-wrap: wrap;
+}
+
+.mini-grid span,
+.tech-list span {
+  padding: 7px 11px;
+
+  border: 1px solid #dde3ec;
+
+  border-radius: 999px;
+
+  font-size: 0.78rem;
+}
+
+/* =========================
+   SECCIONES
+   ========================= */
+
+.section {
+  padding: 90px 8%;
+}
+
+.section.muted {
+  background: #f7f8fa;
+}
+
+.section-heading {
+  max-width: 850px;
+
+  margin-bottom: 40px;
+}
+
+.section h2 {
+  font-size: clamp(2rem, 4vw, 3.5rem);
+
+  line-height: 1.05;
+
+  letter-spacing: -0.04em;
+
+  margin: 12px 0;
+}
+
+/* =========================
+   TARJETAS
+   ========================= */
+
+.cards {
+  display: grid;
+
+  gap: 20px;
+}
+
+.three {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.card {
+  border: 1px solid #e2e6ed;
+
+  border-radius: 18px;
+
+  padding: 28px;
+
+  background: white;
+}
+
+.card h3 {
+  margin-top: 0;
+}
+
+/* =========================
+   PASOS
+   ========================= */
+
+.steps {
+  display: grid;
+
+  grid-template-columns: repeat(3, 1fr);
+
+  gap: 25px;
+}
+
+.steps div {
+  border-top: 3px solid #172033;
+
+  padding-top: 20px;
+}
+
+.steps b {
+  font-size: 2rem;
+}
+
+/* =========================
+   TECNOLOGÍAS
+   ========================= */
+
+.tech-list {
+  display: flex;
+
+  gap: 12px;
+
+  flex-wrap: wrap;
+}
+
+.tech-list span {
+  padding: 12px 16px;
+}
+
+/* =========================
+   FOOTER
+   ========================= */
+
+footer {
+  padding: 35px 8%;
+
+  border-top: 1px solid #e7eaf0;
+
+  display: flex;
+
+  justify-content: space-between;
+
+  color: #647084;
+}
+
+/* =========================
+   RESPONSIVE
+   ========================= */
+
+@media (max-width: 800px) {
+
+  .topbar nav a:not(.btn) {
+    display: none;
+  }
+
+  .hero {
+    grid-template-columns: 1fr;
+
+    padding: 70px 6%;
+  }
+
+  .three,
+  .steps {
+    grid-template-columns: 1fr;
+  }
+
+  .topbar {
+    padding: 0 5%;
+  }
+
+  footer {
+    display: block;
+  }
+
+  .hero h1 {
+    font-size: 4rem;
+  }
+
+}
