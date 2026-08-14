@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>EDU-MAP | Planificación educativa inteligente</title>
+
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+
+  <header class="topbar">
+
+    <a class="brand" href="index.html">
+      EDU-MAP
+    </a>
+
+    <nav>
+      <a href="#problema">El problema</a>
+      <a href="#como-funciona">Cómo funciona</a>
+      <a href="#tecnologia">Tecnología</a>
+
+      <a class="btn btn-small" href="app.html">
+        Probar EDU-MAP
+      </a>
+    </nav>
+
+  </header>
+
+
+  <main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+      <div class="hero-copy">
+
+        <span class="eyebrow">
+          ASISTENTE DE PLANIFICACIÓN DOCENTE
+        </span>
+
+        <h1>
+          Planifica.<br>
+          Genera.<br>
+          Personaliza.
+        </h1>
+
+        <p>
+          EDU-MAP ayuda al docente a transformar una necesidad
+          educativa en una experiencia de aprendizaje estructurada.
+        </p>
+
+        <a class="btn" href="app.html">
+          Crear mi planificación →
+        </a>
+
+      </div>
+
+
+      <div class="hero-card">
+
+        <div class="mini-label">
+          DEMO · 8.º EGB
+        </div>
+
+        <h3>
+          Matemáticas
+        </h3>
+
+        <p>
+          Operaciones con números enteros
+        </p>
+
+        <div class="progress">
+          <span></span>
+        </div>
+
+        <div class="mini-grid">
+
+          <span>ACC</span>
+          <span>DUA</span>
+          <span>Evaluación</span>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- PROBLEMA -->
+
+    <section id="problema" class="section">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          01 · EL PROBLEMA
+        </span>
+
+        <h2>
+          Menos tiempo buscando herramientas.
+          Más tiempo diseñando aprendizaje.
+        </h2>
+
+      </div>
+
+
+      <div class="cards three">
+
+        <article class="card">
+
+          <h3>
+            Planificación
+          </h3>
+
+          <p>
+            Objetivos, actividades y metodología deben
+            organizarse de forma coherente.
+          </p>
+
+        </article>
+
+
+        <article class="card">
+
+          <h3>
+            Recursos
+          </h3>
+
+          <p>
+            Los materiales suelen estar distribuidos
+            en diferentes herramientas y archivos.
+          </p>
+
+        </article>
+
+
+        <article class="card">
+
+          <h3>
+            Evaluación
+          </h3>
+
+          <p>
+            Instrumentos, criterios y rúbricas requieren
+            un trabajo adicional de preparación.
+          </p>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- COMO FUNCIONA -->
+
+    <section id="como-funciona" class="section muted">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          02 · CÓMO FUNCIONA
+        </span>
+
+        <h2>
+          De una idea de clase a una propuesta estructurada.
+        </h2>
+
+      </div>
+
+
+      <div class="steps">
+
+        <div>
+
+          <b>01</b>
+
+          <h3>
+            Define
+          </h3>
+
+          <p>
+            Indica nivel, asignatura, tema,
+            objetivo y duración.
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <b>02</b>
+
+          <h3>
+            Genera
+          </h3>
+
+          <p>
+            Obtén una propuesta de planificación
+            organizada.
+          </p>
+
+        </div>
+
+
+        <div>
+
+          <b>03</b>
+
+          <h3>
+            Personaliza
+          </h3>
+
+          <p>
+            Revisa, modifica y adapta antes
+            de utilizarla.
+          </p>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- TECNOLOGIA -->
+
+    <section id="tecnologia" class="section">
+
+      <div class="section-heading">
+
+        <span class="eyebrow">
+          03 · STACK TECNOLÓGICO
+        </span>
+
+        <h2>
+          Un prototipo ligero, escalable y desplegable.
+        </h2>
+
+      </div>
+
+
+      <div class="tech-list">
+
+        <span>HTML5</span>
+        <span>CSS3</span>
+        <span>JavaScript</span>
+        <span>JSON</span>
+        <span>IA</span>
+        <span>GitHub</span>
+        <span>GitHub Pages</span>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <footer>
+
+    <strong>
+      EDU-MAP
+    </strong>
+
+    <span>
+      Prototipo académico · Hackathon 2026
+    </span>
+
+  </footer>
+
+
+</body>
+</html>
